@@ -18,6 +18,7 @@
 
 .hero1{
   margin: 1em;
+  padding-left: 1.6em;
   width: 60%;
 }
 .hero2{
@@ -94,5 +95,126 @@ button{
 } 
 
 button:hover {
-  background-color: rgba(128, 128, 128, 0.637);
+  background-color: #ff5a609a;
 }  
+
+/* How it works */
+
+.image-icon{
+  height: 60px;
+}
+
+.flex-box{
+  display: flex;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.outer-container{
+  justify-content: center;
+}
+
+.inner-container{
+  justify-content: left;
+}
+
+.sub-container{
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+
+.container_1{
+  max-width: 1200px;
+  margin:2em auto;
+}
+
+.accordion{
+  
+}
+
+.accordion-item{
+   
+} 
+/* 
+.accordion-button[aria-expanded='false'] {
+    border-bottom: 1px solid blue;
+    background-color: grey;
+} */
+
+.accordion-button{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.accordion-title {
+  padding: 1em 1.5em 1em 0;
+  color: black;
+} 
+
+/* .accordion-icon{
+  display: inline-block;
+  position: absolute;
+      top: 18px;
+      right: 0;
+      width: 22px;
+      height: 22px;
+      border: 1px solid;
+      border-radius: 22px;
+} */
+
+/* .accordion-icon::before {
+  display: block;
+  position: absolute;
+  content: '+';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+} */
+
+/* .accordion-icon::after {
+  display: block;
+  position: absolute;
+  content: '-';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+} */
+
+/* .accordion-content{
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} */
+
+#acc .accordion-content{
+  display: none;
+}
+
+#acc .active .accordion-content{
+  display : block;
+}
+
+#acc .active .accordion-button {
+  border-bottom: 1px solid #ff5a5f;
+  border-right: 1px solid #ff5a5f;
+}
+
+/* .active{
+  display: block;
+} */

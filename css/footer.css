@@ -19,20 +19,6 @@ footer {
   color: grey;
 }
 
-.font-small {
-  font-size: 0.8em;
-}
-
-.title-small{
-  font-size: 0.9em;
-  padding-top: 1em;
-}
-
-.font-copyright {
-  font-size: 0.7em;
-  color: grey;
-  padding: 1em;
-}
 
 /* Following is for "sticky" footer */
 .wrapper {
