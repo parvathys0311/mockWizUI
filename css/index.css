@@ -1,4 +1,6 @@
-
+body{
+  -webkit-text-size-adjust: none;
+}
 /****************************/
 /* Main - Index  */
 /****************************/
@@ -62,9 +64,10 @@ input, select, option {
   background-color: transparent;
 }
 
-input::focus{
-  border: none;
+input:focus, select:focus{
+  outline: none;
 }
+
 select {
   color: #999;
 }
@@ -96,7 +99,8 @@ select {
     background-size: 10px;
 }
 
-button{ 
+button { 
+  -webkit-appearance: none;
   text-align: center;
   color: white;
   background-color: #ff5a5f;
@@ -149,6 +153,7 @@ button:hover {
 
 .accordion{
   align-items: center;
+  justify-content: center;
   padding-bottom: 2em;
 }
 
@@ -162,15 +167,17 @@ button:hover {
 } */
 
 .accordion-button{
+  -webkit-appearance: none;
   background-color: white;
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 80%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: inherit;
   font-weight: bold;
 }
 
@@ -213,10 +220,12 @@ button:hover {
 } */
 
 .accordion-content{
+  width: 80%;
   padding: 0 18px;
   /* background-color: white; */
   /* display: none; */
   overflow: hidden;
+  margin: auto;
 }
 
 #acc .accordion-content{

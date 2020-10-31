@@ -16,4 +16,5 @@ ul {
 /* removes defualt underline in <a> links */
 a {
   text-decoration: none;
+  /* text-size-adjust: none; */
 }
