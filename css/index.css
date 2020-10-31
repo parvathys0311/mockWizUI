@@ -4,6 +4,10 @@
 /****************************/
 
 /* HERO Section */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .hero {
   display: flex;
@@ -21,8 +25,9 @@
   padding-left: 1.6em;
   width: 60%;
 }
+
 .hero2{
-  width: 40%;
+  width: 50%;
   min-height:100%; 
 }
 
@@ -57,8 +62,8 @@ input, select, option {
   background-color: transparent;
 }
 
-input:focus{
-  border: 0;
+input::focus{
+  border: none;
 }
 select {
   color: #999;
@@ -79,6 +84,16 @@ textarea {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: #999;
+}
+
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+
+    background: url(../images/chevron-down-solid.svg) no-repeat;
+    background-position: right center;
+    background-size: 10px;
 }
 
 button{ 
@@ -129,14 +144,16 @@ button:hover {
 .container_1{
   max-width: 1200px;
   margin:2em auto;
+  padding: 1em;
 }
 
 .accordion{
-  
+  align-items: center;
+  padding-bottom: 2em;
 }
 
 .accordion-item{
-   
+   width: 70%;
 } 
 /* 
 .accordion-button[aria-expanded='false'] {
@@ -145,7 +162,7 @@ button:hover {
 } */
 
 .accordion-button{
-  background-color: #eee;
+  background-color: white;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -195,12 +212,12 @@ button:hover {
   background: currentColor;
 } */
 
-/* .accordion-content{
+.accordion-content{
   padding: 0 18px;
-  background-color: white;
-  display: none;
+  /* background-color: white; */
+  /* display: none; */
   overflow: hidden;
-} */
+}
 
 #acc .accordion-content{
   display: none;
@@ -215,6 +232,18 @@ button:hover {
   border-right: 1px solid #ff5a5f;
 }
 
-/* .active{
-  display: block;
-} */
+.ex_containerPara{
+  width: 50%;
+}
+
+.ex-input{
+  width:90%;
+}
+
+#ex-button{
+  background-color: #00c8c5;
+}
+
+.ex_containerForm {
+  margin-left: 5em;
+}
