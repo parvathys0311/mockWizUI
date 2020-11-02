@@ -64,7 +64,7 @@ input, select, option {
   font-family:inherit;
   font-size: 0.9rem;
 
-  width: 60%;
+  width: 70%;
   background-color: transparent;
 }
 
@@ -246,8 +246,12 @@ button:hover {
   border-right: 1px solid #ff5a5f;
 }
 
+.exForm {
+  flex-direction: column;
+}
+
 .ex_containerPara{
-  width: 50%;
+  width: 100%;
 }
 
 .ex-input{
@@ -259,7 +263,7 @@ button:hover {
 }
 
 .ex_containerForm {
-  margin-left: 5em;
+  margin: auto;
 }
 
 @media (orientation: landscape) {
@@ -289,6 +293,18 @@ button:hover {
 
   .accordion-item {
     width: 70%;
+  }
+
+  .exForm {
+    flex-direction: row;
+  }
+
+  .ex_containerPara{
+    width: 50%;
+  }
+
+  .ex_containerForm {
+    margin-left: 5em;
   }
 
 }
