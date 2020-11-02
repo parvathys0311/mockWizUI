@@ -19,7 +19,7 @@ header{
 
 .logo {
   width: 140px;
-  padding: 0.7em 0.5em;
+  padding: 0.7em;
 }
 
 /**********/
@@ -48,7 +48,7 @@ nav div ul {
 
 .logo-item{
   flex: 1; 
-  padding-left: 1em;
+  padding-left: 0em;
 }
 
 /* .visible {
@@ -118,13 +118,16 @@ nav a:active {
   } */
 
   .logo-item {
-    flex: none;
+    flex: 2;
+    padding-left: 2em;
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    /* flex: 1; */
+    flex: 1;
+    align-self: flex-end;
+    /* text-align: right; */
   }
 
   .item{
