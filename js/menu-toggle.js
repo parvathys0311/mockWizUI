@@ -2,7 +2,7 @@
 
 // Declare our element variables
 const navBarToggle = document.querySelector('.toggle');
-const menu = document.querySelector('nav ul');
+const menu = document.querySelector('header');
 console.log(menu)
 
 // function statement

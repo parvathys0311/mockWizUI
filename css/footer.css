@@ -16,7 +16,6 @@ footer {
 .layout h4 {
   text-align: left;
   margin: 0;
-  margin-left: 2.5em;
   /* color: rgb(223, 221, 221); */
   color: grey;
 }
@@ -40,4 +39,13 @@ footer {
 main {
   flex-grow: 1;
 }
+
+@media (orientation: landscape) {
+  .layout p{ 
+    margin-left: 2.5em;
+  }
+  
+}
+
+
 

@@ -18,7 +18,7 @@ header{
 
 .logo {
   width: 140px;
-  padding: 0.7em;
+  padding-left: 0.7em;
 }
 
 /**********/
@@ -60,16 +60,25 @@ nav{
   display: block;
   font-size: 20px;
   text-align: right;
-  padding-right: 1em;
+  padding: 0.5em 1em;
+  /* margin-top: 0.5em; */
+}
+
+.fas {
+  color: #ff5a5f;
+}
+
+nav{
+  display: none;
 }
 
 .item{
   width: 100%;
   text-align: right;
-  display: none;
+  /* display: none; */
 }
 
-.active .item {
+.active nav{
   display: block;
   /* background-color: #ff5a5f; */
 }
@@ -84,6 +93,7 @@ nav a{
   display: block;
   color: #686464;
   padding: 0.5em 1em;
+  padding-bottom: 0;
 }
 
 nav ul li {
@@ -138,10 +148,14 @@ nav a:active {
     /* text-align: right; */
   }
 
+  nav a {
+    padding: 0.5em 1em;
+  }
+
   .item{
     width: auto;
     text-align: center;
-    display: block;
+    /* display: block; */
   }
   
   /* Don't show hamburger menu on desktop view */
