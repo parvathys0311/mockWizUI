@@ -73,9 +73,11 @@ input:focus, select:focus{
   outline: none;
 }
 
-select {
+.selectEx, .selectCdd {
   color: #999;
 }
+
+option:not(first-child) {color:#999}
 
 textarea {
   resize: vertical;
@@ -151,6 +153,10 @@ button:hover {
   /* justify-content: center; */
   /* padding: 1em; */
   width: 100%;
+}
+
+.sub-container div{
+  text-align: center;
 }
 
 .container_1{
@@ -299,10 +305,15 @@ button:hover {
 
   .inner-container{
     flex-direction: row;
+    padding-bottom: 1em;
   }
 
   .sub-container{
     width: 420px;
+  }
+
+  .sub-container div{
+    text-align: left;
   }
 
   .accordion-item {
