@@ -23,7 +23,7 @@
       <div class="toggle"><a href="#"><i class="fas fa-bars"></i></a></div>
       <nav>
         <div>
-          <ul>
+          <ul class="container_nav">
             <li class="item"><a href="#hiw">How it works</a></li>
             <li class="item"><a href="#faq">FAQ</a></li>
             <li class="item"><a href="#int">Experienced Interviewer?</a></li>
@@ -55,7 +55,7 @@
                     <option value="4">Data Scientist</option>
                   </select>
                   <li>
-                    <button type="submit" class="font-small">Submit</button>
+                    <button type="submit" class="font-small" id="cdd-button">Submit</button>
                   </li>
                   <li>
                     <p class="font-small">By clicking Submit, you consent to our Terms of Use</p>
@@ -74,17 +74,17 @@
       <section class="background-2">
         <div class="container_1 outer-container flex-box column" id="hiw">
           <h2 class="inner-container">How it works</h2>
-          <div class="flex-box inner-container flex-box">
+          <div class="flex-box inner-container">
             <div class="sub-container flex-box">
-              <img class="image-icon" src="./images/one.png">
+              <div><img class="image-icon" src="./images/one.png"></div>
               <p>Fill a simple form to get matched with experienced interviewers</p>
             </div>
             <div class="sub-container flex-box">
-              <img class="image-icon" src="./images/two.png">
+              <div><img class="image-icon" src="./images/two.png"></div>
               <p>Review your match & pay $89 to schedule mock interview session</p>
             </div>
             <div class="sub-container flex-box">
-              <img class="image-icon" src="./images/three.png">
+              <div><img class="image-icon" src="./images/three.png"></div>
               <p>Practice your interviewing skills and get live feedback</p>
             </div>
           </div>
@@ -97,10 +97,10 @@
           <h3>Frequently Asked Questions</h3>
           <div class="accordion flex-box column" id="acc">
             <div class="accordion-item flex-box column panel">
-              <button class="accordion-button"><span class="accordion-title font-small">What kind of
+              <button class="accordion-button"><span class="accordion-title">What kind of
                   professionals can I interview with?</span><span class="accordion-icon"
                   aria-hidden="true"></span></button>
-              <div class="accordion-content font-small">
+              <div class="accordion-content">
                 <p>You can practice general interviewing skills with recruiters, or role-specific skills with
                   experienced
                   professionals in various domains such as data science, marketing, technology, finance, product
@@ -108,10 +108,10 @@
               </div>
             </div>
             <div class="accordion-item flex-box column panel">
-              <button class="accordion-button"><span class="accordion-title font-small">What kind of
+              <button class="accordion-button"><span class="accordion-title">What kind of
                   professionals can I interview with?</span><span class="accordion-icon"
                   aria-hidden="true"></span></button>
-              <div class="accordion-content font-small">
+              <div class="accordion-content">
                 <p>You can practice general interviewing skills with recruiters, or role-specific skills with
                   experienced
                   professionals in various domains such as data science, marketing, technology, finance, product
@@ -119,10 +119,10 @@
               </div>
             </div>
             <div class="accordion-item flex-box column panel">
-              <button class="accordion-button"><span class="accordion-title font-small">What kind of
+              <button class="accordion-button"><span class="accordion-title">What kind of
                   professionals can I interview with?</span><span class="accordion-icon"
                   aria-hidden="true"></span></button>
-              <div class="accordion-content font-small">
+              <div class="accordion-content">
                 <p>You can practice general interviewing skills with recruiters, or role-specific skills with
                   experienced
                   professionals in various domains such as data science, marketing, technology, finance, product
@@ -140,8 +140,8 @@
             <h2>Earn extra income by using your interviewing experience to help others</h2>
             <p>Fill this form to get details about our partner program</p>
           </div>
-          <div>
-            <form action="#">
+          <div class="exFlexItem">
+            <form action="#" class="form_expert">
               <ul class="ex_containerForm">
                 <li>
                   <input type="text" name="name" placeholder="First Name" class="ex-input">
@@ -166,7 +166,6 @@
               </ul>
             </form>
           </div>
-
         </div>
       </section>
 

@@ -147,24 +147,29 @@ button:hover {
 
 .sub-container{
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 1em;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* padding: 1em; */
+  width: 100%;
 }
 
 .container_1{
   max-width: 1200px;
   margin:2em auto;
+  /* margin-right: 0; */
   padding: 1em;
 }
 
 .accordion{
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
   padding-bottom: 2em;
 }
 
 .accordion-item{
-   width: 100%;
+   /* width: 50%; */
+   /* justify-content: left;
+   padding: 0; */
 } 
 /* 
 .accordion-button[aria-expanded='false'] {
@@ -178,12 +183,12 @@ button:hover {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 80%;
+  width: 100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
-  font-size: inherit;
+  /* font-size: inherit; */
   font-weight: bold;
 }
 
@@ -226,7 +231,8 @@ button:hover {
 } */
 
 .accordion-content{
-  width: 80%;
+  width: 100%;
+  text-align: left;
   padding: 0 18px;
   /* background-color: white; */
   /* display: none; */
@@ -295,12 +301,25 @@ button:hover {
     flex-direction: row;
   }
 
+  .sub-container{
+    width: 420px;
+  }
+
   .accordion-item {
     width: 70%;
   }
 
   .exForm {
     flex-direction: row;
+  }
+
+  .exFlexItem{
+    width: 50%;
+    /* align-items: flex-end; */
+  }
+
+  .form_expert{
+    width: 80%;
   }
 
   .ex_containerPara{
@@ -310,5 +329,10 @@ button:hover {
   .ex_containerForm {
     margin-left: 5em;
   }
+
+
+/* .extra {
+  margin-right: 2em;
+} */
 
 }

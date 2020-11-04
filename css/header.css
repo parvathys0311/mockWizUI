@@ -110,22 +110,21 @@ nav a:active {
 @media (orientation: landscape) {
   
   header{
-    justify-content: space-around;
-    
+    justify-content: space-around;   
   }
   /* .logo-item {
     text-align: center;
   } */
 
   .logo-item {
-    flex: 2;
-    padding-left: 2em;
+    /* flex: 2; */
+    padding-left: 2.2em;
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    /* flex: 1; */
     align-self: flex-end;
     /* text-align: right; */
   }
