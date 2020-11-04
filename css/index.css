@@ -314,12 +314,13 @@ button:hover {
   }
 
   .exFlexItem{
+    /* text-align: right; */
     width: 50%;
     /* align-items: flex-end; */
   }
 
   .form_expert{
-    width: 80%;
+    width: 90%;
   }
 
   .ex_containerPara{
@@ -327,7 +328,7 @@ button:hover {
   }
 
   .ex_containerForm {
-    margin-left: 5em;
+    margin-left: 10em;
   }
 
 
