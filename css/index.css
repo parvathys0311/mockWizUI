@@ -10,6 +10,8 @@ body{
   max-width: 1200px;
   margin:0 auto;
   padding:1em 1em;
+
+  text-align: center;
 }
 
 .hero {
@@ -168,6 +170,7 @@ button:hover {
   margin:2em auto;
   /* margin-right: 0; */
   padding: 1em;
+  text-align: center;
 }
 
 .accordion{
@@ -284,6 +287,14 @@ button:hover {
 }
 
 @media (orientation: landscape) {
+
+  .container{
+    text-align: left;
+  }
+
+  .container_1{
+    text-align: left;
+  }
 
   .hero {
     flex-direction: row;
