@@ -1,0 +1,19 @@
+.approvalForm{
+  margin: 5em;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* text-align: center; */
+  background-color: khaki;
+}
+
+.approvalForm div{
+  display:    flex;
+  /* justify-content: center;
+  text-align:center; */
+}
+
+.approvalForm div label {
+  width: 50%;
+
+}
